@@ -41,6 +41,7 @@
 					<?php bloginfo( 'name' ); ?>
 				</a>
 			</p>
+			<p class="site-description"><i>alias: zeevo</i></p>
 			<?php
 			endif;
 			?>

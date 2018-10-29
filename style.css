@@ -602,7 +602,7 @@ h4,
 h5,
 h6 {
 	color: #666;
-	font-family: "Roboto Slab", Georgia, Times, serif;
+	font-family: RobotoDraft, "Helvetica Neue", "Helvetica Neue", Arial, sans-serif;
 }
 h1 {
 	font-size: 28px;
@@ -741,7 +741,7 @@ input[type='reset'],
 input[type='submit'],
 .button,
 .button:visited {
-	font-family: "Roboto Slab", Georgia, Times, serif;
+	font-family: RobotoDraft, "Helvetica Neue", "Helvetica Neue", Arial, sans-serif;
 	box-sizing: border-box;
 	padding: 10px 14px;
 	-webkit-transition: all .3s ease-in-out;
@@ -825,7 +825,7 @@ address {
 pre {
 	background: transparent;
 	color: #666;
-	font-family: "Roboto Slab", Georgia, Times, serif;
+	font-family: RobotoDraft, "Helvetica Neue", "Helvetica Neue", Arial, sans-serif;
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 27px;

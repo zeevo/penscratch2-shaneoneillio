@@ -12,7 +12,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <?php wp_head(); ?>
 </head>
 
@@ -20,38 +20,44 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'penscratch-2' ); ?></a>
 	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			?>
-
+		<div class="nav-title">
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
 				<h1 class="site-title">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-						<!-- <?php bloginfo( 'name' ); ?> -->
-						<!-- CUSTOM EDIT -->
 						shaneoneill.io<br>
 					</a>
 				</h1>
-				<p class="site-description"><i>alias: zeevo</i></p>
 			<?php else : ?>
 			<p class="site-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<?php bloginfo( 'name' ); ?>
 				</a>
 			</p>
-			<p class="site-description"><i>alias: zeevo</i></p>
 			<?php
 			endif;
 			?>
+		</div>
+		<div class="site-branding">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-5">
+						<span class="pull-right">
+						<?php
+						the_custom_logo();
+						?>
+						</span>
+					</div>
+					<div class="col-xs-7">
+						<?php
+						$description = get_bloginfo( 'description', 'display' );
+						if ( $description || is_customize_preview() ) : ?>
+							<p class="pull-left site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+						<?php
+						endif; ?>
+					</div>
+				</div>
+			</div>
 
-			<?php
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
-			endif; ?>
 		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">

@@ -25,12 +25,13 @@
 			if ( is_front_page() && is_home() ) : ?>
 				<h1 class="site-title">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-						shaneoneill.io<br>
+						shane<span class="bold">oneill</span>.io
 					</a>
 				</h1>
 			<?php else : ?>
 			<p class="site-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						shane<span style="font-weight:bold">oneill</span>.io
 				</a>
 			</p>
 			<?php
@@ -49,9 +50,12 @@
 					</div>
 					<div class="col-xs-7">
 						<?php
-						$description = get_bloginfo( 'description', 'display' );
 						if ( $description || is_customize_preview() ) : ?>
-							<p class="pull-left site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+							<p class="pull-left site-description">
+								<span class="bold">name:</span>
+								<span class="bold">name:</span>
+								<span class="bold">name:</span>
+							</p>
 						<?php
 						endif; ?>
 					</div>

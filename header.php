@@ -30,7 +30,7 @@
 				</h1>
 			<?php else : ?>
 			<p class="site-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+				<a href="<?php echo esc_url(  home_url( '/' ) ); ?>" rel="home">
 						shane<span style="font-weight:bold">oneill</span>.io
 				</a>
 			</p>
@@ -49,15 +49,30 @@
 						</span>
 					</div>
 					<div class="col-xs-7">
-						<?php
-						if ( $description || is_customize_preview() ) : ?>
-							<p class="pull-left site-description">
-								<span class="bold">name:</span>
-								<span class="bold">name:</span>
-								<span class="bold">name:</span>
-							</p>
-						<?php
-						endif; ?>
+						<div class="col-xs-12">
+							<span class="pull-left">
+								<span class="synopsis">NAME:</span>
+								<span class="synopsis-key"> Shane</span>
+							</span>
+						</div>
+						<div class="col-xs-12">
+							<span class="pull-left">
+								<span class="synopsis">HANDLE:</span>
+								<span class="synopsis-key"> zeevo</span>
+							</span>
+						</div>
+						<div class="col-xs-12">
+							<span class="pull-left">
+								<span class="synopsis">OCCUPATION:</span>
+								<span class="synopsis-key"> Programmer</span>
+							</span>
+						</div>
+						<div class="col-xs-12">
+							<span class="pull-left">
+								<span class="synopsis">MOTTO:</span>
+								<span class="synopsis-key"> Hack the planet.</span>
+							</span>
+						</div>
 					</div>
 				</div>
 			</div>

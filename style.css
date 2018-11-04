@@ -2148,3 +2148,11 @@ h1, h2, h3, h4, h5, h6 {
 .bold {
 	font-weight: bold
 }
+
+.synopsis {
+	font-family: RobotoDraft, "Helvetica Neue", "Helvetica Neue", Arial, sans-serif;
+	color: #666666
+}
+.synopsis-key {
+	color: #666666
+}

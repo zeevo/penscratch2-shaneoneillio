@@ -2141,7 +2141,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1200px) {
 .container {
-	width: 970px;
+		width: 970px;
 	}
 }
 
@@ -2153,6 +2153,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: RobotoDraft, "Helvetica Neue", "Helvetica Neue", Arial, sans-serif;
 	color: #666666
 }
+
 .synopsis-key {
 	color: #666666
+}
+
+@media (min-width: 1000px) {
+	.my-pull-right {
+	    float: right !important;
+	}
 }

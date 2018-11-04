@@ -42,7 +42,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-5">
-						<span class="pull-right">
+						<span class="my-pull-right">
 						<?php
 						the_custom_logo();
 						?>
@@ -64,7 +64,7 @@
 						<div class="col-xs-12">
 							<span class="pull-left">
 								<span class="synopsis">OCCUPATION:</span>
-								<span class="synopsis-key"> Programmer</span>
+								<span class="synopsis-key"> Coder</span>
 							</span>
 						</div>
 						<div class="col-xs-12">

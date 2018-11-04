@@ -1146,7 +1146,7 @@ a:active {
 
 .byline,
 .updated {
-	display: none;
+	display: initial;
 }
 
 .single .byline,

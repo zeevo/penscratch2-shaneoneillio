@@ -562,7 +562,7 @@ html {
 
 /* =Global */
 body {
-	background-color: #eee;
+	/* background-color: #eee; */
 	font-family:proxima-nova, sans-serif;
 	font-size: 14px;
 	font-weight: 300;
@@ -1864,13 +1864,13 @@ div.sharedaddy div.sd-block {
 /* Media Queries */
 @media screen and (min-width: 75em) {
 	.site {
-		max-width: 1353px;
+		max-width: 1453px;
 		margin: 54px auto;
 		padding: 54px 108px;
 	}
 
 	.no-sidebar.page-template-full-width-page .site {
-		max-width: 1353px;
+		max-width: 1453px;
 	}
 }
 @media screen and (min-width: 55em) {
@@ -2100,14 +2100,14 @@ div.sharedaddy div.sd-block {
 /* CUSTOM STYLING */
 @media screen and (min-width:768px) {
   body {
-    background-image: url("/wp-content/themes/penscratch-2-wpcom/img/fractal.png");
+    /* background-image: url("/wp-content/themes/penscratch-2-wpcom/img/fractal.png"); */
   }
 }
 
 @media screen and (min-width:768px) {
 	#page {
-		border: 1px solid black;
-		border-radius: 10px;
+		/* border: 1px solid black; */
+		/* border-radius: 10px; */
 	}
 }
 

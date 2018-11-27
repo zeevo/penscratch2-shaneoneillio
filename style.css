@@ -2180,3 +2180,22 @@ pre {
     display: block;
     word-wrap: break-word;
 }
+
+.bg-blue {
+  background-color: rgb(204, 230, 255) !important;
+  text-decoration: none;
+}
+
+.bg-yellow {
+  background-color: rgb(255, 255, 204) !important;
+  text-decoration: none;
+}
+
+.bg-green {
+  background-color: rgb(255, 255, 204) !important;
+  text-decoration: none;
+}
+
+.no-underline {
+  text-decoration: none !important;
+}

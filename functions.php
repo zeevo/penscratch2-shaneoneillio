@@ -216,3 +216,23 @@ require get_template_directory() . '/inc/jetpack.php';
 // updater for WordPress.com themes
 if ( is_admin() )
 	include dirname( __FILE__ ) . '/inc/updater.php';
+
+// CHANGES WIDGET HEADINGS TO H3 (INSTEAD OF H1)
+
+add_action( 'after_setup_theme', 'remove_parent_theme_features', 10 );
+
+function remove_parent_theme_features() {
+	remove_action( 'init', 'sempress_widgets_init' );
+	add_action( 'init', 'ph_sempress_widgets_init' );
+}
+
+function ph_sempress_widgets_init() {
+  register_sidebar( array(
+    'name' => __( 'Sidebar 1', 'sempress' ),
+    'id' => 'sidebar-1',
+    'before_widget' => '<section id="%1$s" class="widget %2$s">',
+    'after_widget' => '</section>',
+    'before_title' => '<h3 class="widget-title">',
+    'after_title' => '</h3>',
+  ) );
+}

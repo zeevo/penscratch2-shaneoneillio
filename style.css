@@ -938,7 +938,7 @@ a:active {
 
 /* =Layout */
 .site {
-	margin: 14px;
+	/* margin: 14px; */
 	padding: 27px;
 	background: white;
 }

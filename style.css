@@ -1835,6 +1835,11 @@ div.sharedaddy div.sd-block {
 	margin: 0;
 	list-style: none;
 }
+.main-navigation {
+	font-size: .8125em;
+	line-height: 2.09231em;
+	text-align: center;
+}
 .jetpack-social-navigation a {
 	display: inline-block;
 	text-decoration: none;
@@ -1879,6 +1884,21 @@ div.sharedaddy div.sd-block {
 		padding: 54px 108px;
 	}
 }
+@media screen and (max-width: 55em) {
+	.site-branding {
+		display: none;
+	}
+	.site-navigation {
+		border-top: 0px;
+	}
+	.main-navigation {
+		border-top: 0px;	
+	}
+	.site-header {
+		border-bottom: 0px;
+	}
+}
+
 @media screen and (min-width: 50em) {
 
 	h1 {
@@ -1981,11 +2001,6 @@ div.sharedaddy div.sd-block {
 
 	.menu-toggle {
 		display: none;
-	}
-	.main-navigation {
-		font-size: .8125em;
-		line-height: 2.09231em;
-		text-align: center;
 	}
 	.main-navigation ul:first-child {
 		display: block;

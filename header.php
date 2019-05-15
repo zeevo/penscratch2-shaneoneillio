@@ -64,7 +64,7 @@
 						<div class="col-xs-12">
 							<span class="pull-left">
 								<span class="synopsis">OCCUPATION:</span>
-								<span class="synopsis-key"> Coder, Ethical hacker</span>
+								<span class="synopsis-key"> Coder</span>
 							</span>
 						</div>
 						<div class="col-xs-12">

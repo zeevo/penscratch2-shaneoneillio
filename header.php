@@ -58,7 +58,7 @@
 						<div class="col-xs-12">
 							<span class="pull-left">
 								<span class="synopsis">HANDLE:</span>
-								<span class="synopsis-key"> zeevo</span>
+								<span class="synopsis-key"> Zeevo</span>
 							</span>
 						</div>
 						<div class="col-xs-12">

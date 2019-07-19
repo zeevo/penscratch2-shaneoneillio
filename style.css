@@ -2271,6 +2271,10 @@ pre {
 	background-color: #546e7a !important;
 }
 
+.purple-1 {
+	background-color: #6f4185 !important;
+}
+
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
 	color: #fff;
 	margin-right: 24px;
